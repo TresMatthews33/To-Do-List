@@ -68,3 +68,13 @@ li:hover {
 .done {
     background-color: black;
 }
+
+.delete {
+    display: none
+}
+
+li > button {
+    float: right;
+    border: round;
+    background: none;
+}
