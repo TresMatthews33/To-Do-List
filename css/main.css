@@ -6,13 +6,17 @@ body {
 
 h1 {
     margin-top: 25px;
-    color: white;
+    color: #EDF7F6;
 }
 
 input {
     min-width: 65%;
 }
-
+#submit {
+    background-color: #9A8F97;
+    border-radius: 2px;
+}
+/*
 #submit {
     background-color: lightblue;
     border: none;
@@ -21,7 +25,46 @@ input {
     transition-property: background-color 3s ease 1s;
     transition-timing-function: ease-in-out;
 }
-
+ */
 #submit:hover {
-    background-color: crimson;
+    background-color: #F19953;
+}
+
+/* Styles for the ul and lis */
+
+ul {
+    margin-top: 20px;
+    text-align: left;
+    min-width: 50%;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+    background-color: #87ceeb;
+    min-width: 50%;
+    transition: all .75s ease;
+
+    -webkit-transition: all 0.75s ease;
+
+    -moz-transition: all 0.75s ease;
+
+    -ms-transitions: all 0.75s ease;
+
+    -o-transition: all 0.75s ease;
+}
+
+li:hover {
+    color: #DDD8B8;
+}
+
+/* Styles for when a list item is marked as done */
+
+.done {
+    background-color: black;
 }
